@@ -25,7 +25,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Single Horizontal Slide 1a</section>
+				<section data-markdown>Single Horizontal Slide 1a</section>
 						<textarea data-template>
 						## PG Online Sample Web Based Presentation
 
@@ -40,7 +40,11 @@
 						A paragraph with some text and a [link](https://www.pgonline.co.uk).
 						</textarea>
 					</section>
-				<section>Vertical Slide 2</section>
+				<section data-markdown>Vertical Slide 2</section>
+						<script type="text/template">
+							- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
+							- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+						</script>
 			</section>
 				<section>Single Horizontal Slide 3</section>
 				<section>Single Horizontal Slide 4</section>
